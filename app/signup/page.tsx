@@ -57,6 +57,11 @@ export default function SignupPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-primary-green/10 to-primary-blue/10 flex items-center justify-center px-4">
       <div className="max-w-md w-full bg-white rounded-lg shadow-lg p-8">
+        <div className="mb-6">
+          <Link href="/" className="text-primary-green hover:underline text-sm">
+            ← Back to Home
+          </Link>
+        </div>
         <h1 className="text-3xl font-bold text-center mb-8">Sign Up</h1>
 
         <form onSubmit={handleSignup} className="space-y-6">
